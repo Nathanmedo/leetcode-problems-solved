@@ -21,8 +21,8 @@ function addTwoNumbers(l1, l2){
         //move the pointer to the current node that was just created
         current = current.next
 
-        if(l1) l1.next; //move to the next node of l1 example if l1(current) = 5, l1.next = 7 and if there is no value l1.next = null
-        if(l2) l2.next; //move to the next node of l2, likewise for l2
+        if(l1) l1 = l1.next; //move to the next node of l1 example if l1(current) = 5, l1.next = 7 and if there is no value l1.next = null
+        if(l2) l2 = l2.next; //move to the next node of l2, likewise for l2
 
     }
     //dummy.next was used because a linked list always starts from zero, which is not meant to be included in the solution
