@@ -36,4 +36,4 @@ function containerWithMostWater(heights){
     return maximumWater
 }
 
-console.log(containerWithMostWater([1,8,6,2,5,4,8,3,7]))
+console.log(containerWithMostWater([1,8,6,2,5,4,8,3,7])) 
